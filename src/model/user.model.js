@@ -11,15 +11,6 @@ const userSchema = mongoose.Schema({
         type:String,
         Unique:true
     },
-    Street:{
-        type:String
-    },
-    City:{
-        type:String
-    },
-    District:{
-        type:String
-    },
     password:{
         type:String
     },
